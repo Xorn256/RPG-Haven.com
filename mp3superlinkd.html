@@ -1,0 +1,122 @@
+<html>
+<head></head>
+<body bgcolor="#000000">
+<script language="JavaScript">
+
+
+<!--Orions Javascript code, copyright 1998
+window.onerror = null;
+var netscape = 0;
+var goodIE = 0;
+
+browserName = navigator.appName.substring(0,8);
+browserVer = parseFloat(navigator.appVersion);
+if (browserName == "Netscape" && browserVer >= 3)
+{ netscape = 1; }
+if (browserName == "Microsof" && browserVer >= 3.01)
+{ goodIE = 1; }
+
+        if (netscape || goodIE) {
+                menu = new Array(9);
+                standard = new Array(9);
+                over = new Array(9);
+        menu[0] = new Image;
+        menu[1] = new Image;        
+        menu[2] = new Image;        
+        menu[3] = new Image;        
+        menu[4] = new Image;        
+        menu[5] = new Image;        
+        menu[6] = new Image;        
+        menu[7] = new Image;
+        menu[8] = new Image;
+
+        standard[0] = new Image;
+        standard[1] = new Image;
+        standard[2] = new Image;
+        standard[3] = new Image;
+        standard[4] = new Image;
+        standard[5] = new Image;
+        standard[6] = new Image;
+        standard[7] = new Image;
+        standard[8] = new Image;
+
+        over[0] = new Image;
+        over[1] = new Image;
+        over[2] = new Image;
+        over[3] = new Image;
+        over[4] = new Image;
+        over[5] = new Image;
+        over[6] = new Image;
+        over[7] = new Image;
+        over[8] = new Image;
+                standard[0].src = "mp3t1.jpg";
+                standard[1].src = "mp3t7.jpg";
+                standard[2].src = "mp3t2.jpg";
+                standard[3].src = "mp3t8.jpg";
+                standard[4].src = "mp3t3.jpg";
+                standard[5].src = "mp3t9.jpg";
+                standard[6].src = "mp3t4.jpg";
+                standard[7].src = "mp3t10.jpg";
+                standard[8].src = "booktry.jpg";
+
+                over[0].src = "mp3l1.jpg";
+                over[1].src = "mp3l7.jpg";
+                over[2].src = "mp3l2.jpg";
+                over[3].src = "mp3l8.jpg";
+                over[4].src = "mp3l3.jpg";
+                over[5].src = "mp3l9.jpg";
+                over[6].src = "mp3l4.jpg";
+                over[7].src = "mp3l10.jpg";
+                over[8].src = "booktry.jpg";
+
+                menu[0].src = "mp3t10.jpg";
+                menu[1].src = "mp3t10.jpg";
+                menu[2].src = "mp3t10.jpg";
+                menu[3].src = "mp3t10.jpg";
+                menu[4].src = "mp3t10.jpg";
+                menu[5].src = "mp3t10.jpg";
+                menu[6].src = "mp3t10.jpg";
+                menu[7].src = "mp3t10.jpg";
+                menu[8].src = "booktry.jpg";
+             }
+        function msover(num) {
+        if (netscape || goodIE) {
+                                document.images[num].src = over[num].src;
+                                document.images[8].src = menu[num].src; } }  
+        function msout(num) {
+                if (netscape || goodIE) {
+                                        document.images[num].src = standard[num].src;
+                                        document.images[8].src = menu[8].src; } }
+        
+// -->
+
+
+
+</script>
+
+
+<table border="0" width="100" height="0" cellspacing="0" cellpadding="0" bgcolor="#000000">
+
+<tr>
+<td align=center><font size=3+font color=blue><a href="emulation/emulation.htm" target="main" onmouseover="msover(0); window.status='Emulation'; return true" onmouseout="msout(0); window.status=''"><img src=mp3t1.jpg height=22 width=120 border=0></a></td>
+<td align=center><font size=3+font color=gray><a href="role/role.htm" onmouseover="msover(1); window.status='Role Playing'; return true" onmouseout="msout(1); window.status=''"><img src=mp3t7.jpg height=22 width=132 border=0></a></td>
+</tr>
+
+<tr>
+<td align=center><font size=3+font color=blue><a href="emulation/emulation.htm" target="main" onmouseover="msover(2); window.status='Emulation'; return true" onmouseout="msout(2); window.status=''"><img src=mp3t2.jpg height=20 width=120 border=0></td>
+<td align=center><font size=3+font color=gray><a href="emulation/emulation.htm" target="main" onmouseover="msover(3); window.status='Emulation'; return true" onmouseout="msout(3); window.status=''"><img src=mp3t8.jpg height=20 width=132 border=0></td>
+</tr>
+
+<tr>
+<td align=center><font size=3+font color=blue><a href="emulation/emulation.htm" target="main" onmouseover="msover(4); window.status='Emulation'; return true" onmouseout="msout(4); window.status=''"><img src=mp3t3.jpg height=18 width=120 border=0></td>
+<td align=center><font size=3+font color=gray><a href="emulation/emulation.htm" target="main" onmouseover="msover(5); window.status='Emulation'; return true" onmouseout="msout(5); window.status=''"><img src=mp3t9.jpg height=18 width=132 border=0></td>
+</tr>
+
+<tr>
+<td align=center><font size=3+font color=blue><a href="emulation/emulation.htm" target="main" onmouseover="msover(6); window.status='Emulation'; return true" onmouseout="msout(6); window.status=''"><img src=mp3t4.jpg height=18 width=120 border=0></td>
+<td align=center><font size=3+font color=gray><a href="emulation/emulation.htm" target="main" onmouseover="msover(7); window.status='Emulation'; return true" onmouseout="msout(7); window.status=''"><img src=mp3t10.jpg height=18 width=132 border=0></td>
+</tr>
+<img src=booktry.jpg align=left></td>
+</table>
+
+
